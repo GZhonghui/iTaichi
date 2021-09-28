@@ -20,10 +20,19 @@
 ![Mandelbrot_Set](readMe/02_Mandelbrot_Set_01.png)
 
 ## 03 Export Mesh
+> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
+> Export Mesh Sequence, then Import to 3rd Party Tools  
+> The GIF is Rendered by Blender in this Sample
+```
+>> cd Source/03_Export_Mesh
+>> python Main.py
+It will generate ply files in the current folder
+```
+![Mesh_Sequence](readMe/03_Export_Mesh_01.gif)
 
 ## 04 Export Video
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
-> Encode Frames to Video, relay on **opencv-python**
+> Encode Frames to Video, Relay on **opencv-python**
 ```
 >> cd Source/04_Export_Video
 >> python Main.py
