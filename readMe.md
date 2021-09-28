@@ -3,7 +3,7 @@
 ## 01 Julia Set
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
 > Julia Set Animation, Colored. Ref: [Wikipedia](https://en.wikipedia.org/wiki/Julia_set)  
-> c=0.7885\*exp(i\*t)
+> c=0.7885\*Exp(i\*Time)
 ```
 >> cd Source/01_Julia_Set
 >> python Main.py
@@ -23,11 +23,13 @@
 
 ## 04 Export Video
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
-> Encode Frames to Video, relay on opencv-python
+> Encode Frames to Video, relay on **opencv-python**
 ```
 >> cd Source/04_Export_Video
 >> python Main.py
-Then you got a mp4 file, you can convert it to **GIF** in Photoshop
+Then you will get a mp4 file, you can convert it to **GIF** in Photoshop
 ```
 
 ## 05 GUI
+
+## 06 Input

@@ -12,7 +12,8 @@ pixels_u8 = ti.Vector.field(3, dtype=ti.u8, shape=(n, n))
 def convert_pixel():
     for i,j in pixels:
         for k in ti.static(range(3)):
-            pixels_u8[i,j][2-k]=ti.cast(pixels[i,j][k] * 255.999, ti.u8)
+            # OpenCV and Taichi are different
+            pixels_u8[i,j][2-k]=ti.cast(pixels[j,i][k] * 255.999, ti.u8)
 
 @ti.func
 def complex_sqr(z):
@@ -35,7 +36,7 @@ def paint(t: ti.f32):
             iterations += 1
         pixels[i, j] = color(1 - iterations * 0.02)
 
-gui = ti.GUI("Julia Set", res=(n, n))
+gui = ti.GUI("Exporting Video for Julia Set", res=(n, n))
 
 video_fps = 30
 video_file_name = 'Encode.mp4'
@@ -46,7 +47,7 @@ video_encoder = cv.VideoWriter(video_file_name, \
 def main():
     try:
         time_step = 0        
-        save_rate = 3
+        save_rate = 5
         render_rate = 0.01
         while True:
             paint(time_step * render_rate)
