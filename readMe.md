@@ -1,4 +1,4 @@
-# iTaichi
+# i[Taichi](https://taichi.graphics/)
 
 ## 01 Julia Set
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
