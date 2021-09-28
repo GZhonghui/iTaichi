@@ -49,3 +49,5 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 >> python Main.py
 ```
 ![Input](readMe/06_Input_01.gif)
+
+## Audo Diff
