@@ -5,13 +5,19 @@
 > Julia Set Animation, Colored. Ref: [Wikipedia](https://en.wikipedia.org/wiki/Julia_set)  
 > c=0.7885\*exp(i\*t)
 ```
->> cd Source\01_Julia_Set
+>> cd Source/01_Julia_Set
 >> python Main.py
 ```
 ![Julia_Set](readMe/01_Julia_Set_01.gif)
 
 ## 02 Mandelbrot Set
-> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9
+> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
+> Mandelbrot Set
+```
+>> cd Source/02_Mandelbrot_Set
+>> python Main.py
+```
+![Mandelbrot_Set](readMe/02_Mandelbrot_Set_01.png)
 
 ## 03 Export Mesh
 
@@ -19,9 +25,9 @@
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
 > Encode Frames to Video, relay on opencv-python
 ```
->> cd Source\04_Export_Video
+>> cd Source/04_Export_Video
 >> python Main.py
-Then you got a mp4 file, you can convert it to gif in Photoshop
+Then you got a mp4 file, you can convert it to **GIF** in Photoshop
 ```
 
 ## 05 GUI
