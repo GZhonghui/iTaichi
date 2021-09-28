@@ -50,4 +50,4 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ```
 ![Input](readMe/06_Input_01.gif)
 
-## Audo Diff
+## 07 Audo Diff
