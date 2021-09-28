@@ -6,4 +6,9 @@
 > c=0.7885\*exp(i\*t)
 
 ## 02 Mandelbrot Set
-> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
+> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9
+
+## 03 Export Mesh
+
+## 04 Export Video
+> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9
