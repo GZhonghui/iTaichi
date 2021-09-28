@@ -37,13 +37,11 @@ def paint(t: ti.f32):
 
 gui = ti.GUI("Julia Set", res=(n, n))
 
-'''
 video_fps = 30
 video_file_name = 'Encode.mp4'
 video_encoder = cv.VideoWriter(video_file_name, \
     cv.VideoWriter_fourcc(*'mp4v'), \
     video_fps, (n, n))
-'''
 
 def main():
     try:
@@ -57,15 +55,13 @@ def main():
 
             time_step += 1
 
-            '''
             if not mod(time_step, save_rate):
                 convert_pixel()
                 video_encoder.write(pixels_u8.to_numpy())
-            '''
             
     except RuntimeError:
         pass
-    # video_encoder.release()
+    video_encoder.release()
 
 if __name__=='__main__':
     main()
