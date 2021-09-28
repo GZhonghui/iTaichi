@@ -22,7 +22,7 @@
 ## 03 Export Mesh
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
 > Export Mesh Sequence, then Import to 3rd Party Tools  
-> The GIF is Rendered by Blender in this Sample
+> The GIF is Rendered by **Blender** in this Sample
 ```
 >> cd Source/03_Export_Mesh
 >> python Main.py
@@ -42,3 +42,10 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ## 05 GUI
 
 ## 06 Input
+> [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
+> Handle Input Event via Taichi
+```
+>> cd Source/06_Input
+>> python Main.py
+```
+![Input](readMe/06_Input_01.gif)
