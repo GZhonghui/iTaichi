@@ -27,7 +27,7 @@
 ```
 >> cd Source/04_Export_Video
 >> python Main.py
-Then you will get a mp4 file, you can convert it to **GIF** in Photoshop
+Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ```
 
 ## 05 GUI
