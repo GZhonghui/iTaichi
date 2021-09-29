@@ -3,7 +3,7 @@
 ## 01 Julia Set
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
 > Julia Set Animation, Colored. Ref: [Wikipedia](https://en.wikipedia.org/wiki/Julia_set)  
-> c=0.7885\*Exp(i\*Time)
+> C=0.7885\*Exp(i\*Time)
 ```
 >> cd Source/01_Julia_Set
 >> python Main.py
@@ -50,4 +50,4 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ```
 ![Input](readMe/06_Input_01.gif)
 
-## 07 Audo Diff
+## 07 Gradient Descent
