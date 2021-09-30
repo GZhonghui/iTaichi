@@ -40,7 +40,7 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ```
 
 ## 05 GUI
-> [Taichi] version 0.8.1, llvm 10.0.0, commit cc2dd342, win, python 3.7.9
+> [Taichi] version 0.8.1, llvm 10.0.0, commit cc2dd342, win, python 3.7.9  
 > Taichi New UI System: GGUI
 ```
 >> cd Source/05_GUI
