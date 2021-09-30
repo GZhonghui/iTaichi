@@ -40,6 +40,13 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ```
 
 ## 05 GUI
+> [Taichi] version 0.8.1, llvm 10.0.0, commit cc2dd342, win, python 3.7.9
+> Taichi New UI System: GGUI
+```
+>> cd Source/05_GUI
+>> python Main.py
+```
+![GUI](readMe/05_GUI_01.gif)
 
 ## 06 Input
 > [Taichi] version 0.7.20, llvm 10.0.0, commit 284f75ed, win, python 3.7.9  
