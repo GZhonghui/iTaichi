@@ -51,3 +51,11 @@ Then you will get a mp4 file, you can convert it to GIF in Photoshop
 ![Input](readMe/06_Input_01.gif)
 
 ## 07 Gradient Descent
+> [Taichi] version 0.8.1, llvm 10.0.0, commit cc2dd342, win, python 3.7.9  
+> Taichi Auto Diff Feature. Relay on **matplotlib**  
+> Y = a * X^2 + b * X + c
+```
+>> cd Source/07_Gradient_Descent
+>> python Main.py
+```
+![Gradient_Descent](readMe/07_Gradient_Descent_01.gif)
